@@ -1,0 +1,112 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #d67b7b;
+    color: #fff;
+}
+
+
+header span {
+    justify-content: center;
+}
+
+span p {
+    font-size: 50px;
+    justify-content: center;
+}
+
+span img {
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
+main {
+    display: grid;
+    margin: 1rem;
+}
+
+main h1 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    justify-self: center;
+}
+
+
+.parent {
+    margin: 3rem 2vw;
+}
+
+.parent section {
+    border: 1px solid #415541;
+    background-color: #ebf1f3;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.parent h2 {
+    background-color: #b52828;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.parent li {
+    padding: 20px;
+}
+
+
+
+nav {
+    background-color: #b52828;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    border: 1px solid #fff;
+    background-color: #d67b7b;
+}
+
+footer {
+    background-color: #b52828;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Additional styles can be added as needed */
